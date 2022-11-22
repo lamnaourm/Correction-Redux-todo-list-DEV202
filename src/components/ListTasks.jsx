@@ -2,7 +2,7 @@ import React from 'react';
 
 const ListTasks = () => {
     return (
-        <div>
+        <div className='list'>
             
         </div>
     );
