@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaExchangeAlt } from "react-icons/bs";
+import { FaExchangeAlt } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 
 

@@ -25,6 +25,12 @@
   margin-right: 5px;
 }
 
+.add input:focus {
+  outline:1px solid #820505;
+  border: none;
+  background-color: rgb(246, 246, 241);
+}
+
 .add button {
   padding: 5px;
   background-color: #0e0e7e;
@@ -35,13 +41,15 @@
 .list {
   display: flex;
   flex-direction: column;
+  margin: 10px auto;
+  width: 40%;
   gap: 10px;
 }
+
 
 .tache {
   border: 1px solid #e1e1f4;
   background-color: #e1e1f4;
-  width: 40%;
   display: flex;
   padding: 8px;
 }
@@ -65,3 +73,5 @@
   background-color: #820505;
   color: #2f0909;
 }
+
+
