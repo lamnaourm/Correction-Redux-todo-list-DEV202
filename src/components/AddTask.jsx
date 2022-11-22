@@ -5,7 +5,7 @@ import { addtask } from '../redux/ActionsCreators';
 
 const AddTask = () => {
 
-    const [valeur, setValeur] = useState();
+    const [valeur, setValeur] = useState('');
     const dispatch = useDispatch();
 
     const add = () => {

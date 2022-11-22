@@ -61,17 +61,17 @@
 .tache button {
   border: none;
   border: 2px;
-  padding: 2px;
+  padding: 8px;
+  margin: 2px;
+  color: white;
 }
 
-.tache button :nth-child(2) {
+.tache button:nth-child(2) {
   background-color: #3429b0;
-  color: #100d39;
 }
 
-.tache button :nth-child(3) {
+.tache button:nth-child(3) {
   background-color: #820505;
-  color: #2f0909;
 }
 
 

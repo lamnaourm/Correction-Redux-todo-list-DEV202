@@ -7,5 +7,19 @@ const addtask = (text) => {
     }
 }
 
+const changetask = (id) => {
+    return {
+        type : Actions.CHANGE_TASK,
+        payload : id
+    }
+}
 
-export {addtask} 
+const deletetask = (id) => {
+    return {
+        type : Actions.DELETE_TASK,
+        payload : id
+    }
+}
+
+
+export {addtask, changetask, deletetask} 
